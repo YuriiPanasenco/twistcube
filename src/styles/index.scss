@@ -1,0 +1,15 @@
+$body-color: slateblue;
+
+body, html {
+  color: $body-color;
+  font-family: sans-serif;
+  margin: 0px;
+  background-color: $body-color;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  canvas{
+    height: 100%;
+    width: 100%;
+  }
+}
